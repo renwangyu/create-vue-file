@@ -1,0 +1,49 @@
+<% if (!isFunctional) { %>
+<template>
+  <div class="<%= className %>">
+    
+  </div>
+</template>
+<% } %>
+
+<style lang="less" scoped>
+.<%= className %> {
+
+}
+</style>
+
+<script>
+export default {
+<% if (isFunctional) { %>
+  functional: true,
+  render(h, context) {
+    return (
+      <div class="<%= className %>">
+    
+      </div>
+    );
+  }
+<% } else { %>
+  props: {
+
+  },
+  data() {
+    return {
+
+    };
+  },
+  computed: {
+
+  },
+  methods: {
+    
+  },
+  created() {
+    
+  },
+  mounted() {
+    
+  }
+<% } %>
+}
+</script>
