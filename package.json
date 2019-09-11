@@ -1,6 +1,6 @@
 {
   "name": "create-vue-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create vue file by command line",
   "bin": {
     "cvue": "bin/index.js"
