@@ -4,7 +4,7 @@
 
 * 安装
 ```javascript
-npm install create-vue-file
+npm install -g create-vue-file
 ```
 * 使用
 ```javascript
